@@ -1,0 +1,608 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(bg-img.jpg);
+    /* background-color: rgb(191, 188, 31); */
+    background-size: 100% 100vh;
+    background-attachment: fixed;
+
+}
+
+.container {
+    margin-left: 8%;
+    color: white;
+}
+
+.logo img {
+    width: 14vw;
+}
+
+#nav-bar {
+    background-color: rgba(77, 106, 224, 0.774);
+    width: 80%;
+    height: 7vh;
+    margin-left: 10%;
+    margin-top: 1vh;
+    border-radius: 15px;
+
+}
+
+.home {
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+    margin-top: 12px;
+    margin-left: 25px;
+    color: aliceblue;
+}
+
+.home a {
+    text-decoration: none;
+}
+
+.home:hover {
+    color: black;
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.class {
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+    margin-top: 12px;
+    margin-left: 25px;
+    color: aliceblue;
+}
+
+.class:hover {
+    color: black;
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.subjects a {
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+    margin-top: 12px;
+    margin-left: 25px;
+    color: aliceblue;
+}
+
+.subjects a:hover {
+    color: black;
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+
+.about {
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+    margin-top: 12px;
+    margin-left: 25px;
+    color: aliceblue;
+
+}
+
+.about a {
+    text-decoration: none;
+}
+
+.about:hover {
+    color: black;
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.pricing {
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+    margin-top: 12px;
+    margin-left: 25px;
+    color: aliceblue;
+
+}
+
+.pricing:hover {
+    color: black;
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.contact a {
+    text-decoration: none;
+}
+
+.btn {
+    /* display: inline-block; */
+    /* background-color: rgb(127, 125, 133); */
+    background: transparent;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    animation-name: btnbr;
+    animation-iteration-count: infinite;
+    font-size: 2vh;
+    float: right;
+    /* font-weight: bold; */
+    margin-top: 6px;
+    margin-right: 10px;
+}
+
+.btn:hover {
+
+    color: rgb(239, 231, 231);
+    border: 2px solid rgb(13, 13, 12);
+
+    background-color: rgb(20, 21, 21);
+
+}
+
+/*--- HEADER---*/
+
+/*------ footer -----*/
+.d-flex {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 14px;
+}
+
+.nav {
+    list-style: none;
+}
+
+.nav ul li {
+    margin: 10px;
+}
+
+.h1 {
+    text-align: center;
+    margin-top: 8vh;
+}
+
+a {
+    color: floralwhite;
+    text-decoration: none;
+}
+
+.class1,
+.class2,
+.class3,
+.class4 {
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+    height: 30vh;
+    width: 100%;
+    text-align: center;
+
+    font-size: 25px;
+    /* background:#691010 */
+}
+
+.c1sub1,
+.c2sub1,
+.c3sub1,
+.c4sub1 {
+    font-weight: bold;
+    margin-left: 10vw;
+    height: 26vh;
+    font-size: 20px;
+    text-align: center;
+
+    width: 20vw;
+    background: #254687;
+}
+
+.c1sub2,
+.c2sub2,
+.c3sub2,
+.c4sub2 {
+    margin-left: 10vw;
+    height: 26vh;
+    font-weight: bold;
+
+    width: 20vw;
+    font-size: 25px;
+    text-align: center;
+
+    background: #000;
+}
+
+.c1sub3,
+.c2sub3,
+.c3sub3,
+.c4sub3 {
+    margin-left: 10vw;
+    font-weight: bold;
+
+    height: 26vh;
+    font-size: 25px;
+    text-align: center;
+
+    width: 20vw;
+    background: #1ac620;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 8vh;
+}
+
+a {
+    color: rgb(39, 39, 39);
+    text-decoration: none;
+}
+
+.class5,
+.class6 {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    height: 30vh;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+
+.c5sub1,
+.c5sub2,
+.c5sub3,
+.c5sub4 {
+    font-weight: bold;
+    margin-left: 4vw;
+    height: 26vh;
+    font-size: 25px;
+    text-align: center;
+
+    width: 20vw;
+    background: #254687;
+}
+
+.c6sub1,
+.c6sub2,
+.c6sub3,
+.c6sub4 {
+    font-weight: bold;
+    margin-left: 4vw;
+    height: 26vh;
+    font-size: 25px;
+    text-align: center;
+
+    width: 20vw;
+    background: #254687;
+
+}
+
+.class7,
+.class8,
+.class9,
+.class10,
+.class11,
+.class12 {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    height: 30vh;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+
+.sub1,
+.sub2,
+.sub3,
+.sub4,
+.sub5 {
+    font-weight: bold;
+    margin-left: 1.5vw;
+    height: 26vh;
+    font-size: 25px;
+    text-align: center;
+    width: 18vw;
+    background: #254687;
+}
+.c11sub1,
+.c11sub2,
+.c11sub3,
+.c11sub4,
+.c11sub5{
+    font-weight: bold;
+    margin-left: 1.5vw;
+    height: 26vh;
+    font-size: 25px;
+    text-align: center;
+    width: 18vw;
+    background: #254687;
+}
+.c12sub1,
+.c12sub2,
+.c12sub3,
+.c12sub4,
+.c12sub5{
+    font-weight: bold;
+    margin-left: 1.5vw;
+    height: 26vh;
+    font-size: 25px;
+    text-align: center;
+    width: 18vw;
+    background: #254687;
+}
+
+.c1sub1 {
+    background-image: url(hindi.jpg);
+    background-size: cover;
+}
+
+.c2sub1 {
+    background-image: url(hindi.jpg);
+    background-size: cover;
+}
+
+.c3sub1 {
+    background-image: url(hindi.jpg);
+    background-size: cover;
+}
+
+.c4sub1 {
+    background-image: url(hindi.jpg);
+    background-size: cover;
+}
+
+.c1sub2 {
+    background-image: url(english\ education\ mines.jpg);
+    background-size: cover;
+}
+
+.c2sub2 {
+    background-image: url(english\ education\ mines.jpg);
+    background-size: cover;
+}
+
+.c3sub2 {
+    background-image: url(english\ education\ mines.jpg);
+    background-size: cover;
+}
+
+.c4sub2 {
+    background-image: url(english\ education\ mines.jpg);
+    background-size: cover;
+}
+
+.c1sub3 {
+    background-image: url(maths.jpg);
+    background-size: cover;
+}
+
+.c2sub3 {
+    background-image: url(maths.jpg);
+    background-size: cover;
+}
+
+.c3sub3 {
+    background-image: url(maths.jpg);
+    background-size: cover;
+}
+
+.c4sub3 {
+    background-image: url(maths.jpg);
+    background-size: cover;
+}
+
+.c5sub1 {
+    background-image: url(hindi.jpg);
+    background-size: cover;
+}
+
+.c5sub2 {
+    background-image: url(english\ education\ mines.jpg);
+    background-size: cover;
+}
+
+.c5sub3 {
+    background-image: url(maths.jpg);
+    background-size: cover;
+}
+
+.c5sub4 {
+    background-image: url(science.jpg);
+    background-size: cover;
+}
+
+.c6sub1 {
+    background-image: url(hindi.jpg);
+    background-size: cover;
+}
+
+.c6sub2 {
+    background-image: url(english\ education\ mines.jpg);
+    background-size: cover;
+}
+
+.c6sub3 {
+    background-image: url(maths.jpg);
+    background-size: cover;
+}
+
+.c6sub4 {
+    background-image: url(science.jpg);
+    background-size: cover;
+}
+
+.sub1 {
+    background-image: url(hindi.jpg);
+    background-size: cover;
+}
+
+.sub2 {
+    background-image: url(english\ education\ mines.jpg);
+    background-size: cover;
+}
+
+.sub3 {
+    background-image: url(maths.jpg);
+    background-size: cover;
+}
+
+.sub4 {
+    background-image: url(science.jpg);
+    background-size: cover;
+}
+
+.sub5 {
+    background-image: url(social\ copy.jpg);
+    background-size: cover;
+}
+
+.sub1 {
+    background-image: url(hindi.jpg);
+    background-size: cover;
+}
+
+.sub2 {
+    background-image: url(english\ education\ mines.jpg);
+    background-size: cover;
+}
+
+.sub3 {
+    background-image: url(maths.jpg);
+    background-size: cover;
+}
+
+.sub4 {
+    background-image: url(science.jpg);
+    background-size: cover;
+}
+
+.sub5 {
+    background-image: url(social\ copy.jpg);
+    background-size: cover;
+}
+
+.sub1 {
+    background-image: url(hindi.jpg);
+    background-size: cover;
+}
+
+.sub2 {
+    background-image: url(english\ education\ mines.jpg);
+    background-size: cover;
+}
+
+.sub3 {
+    background-image: url(maths.jpg);
+    background-size: cover;
+}
+
+.sub4 {
+    background-image: url(science.jpg);
+    background-size: cover;
+}
+
+.sub5 {
+    background-image: url(social\ copy.jpg);
+    background-size: cover;
+}
+
+.sub1 {
+    background-image: url(hindi.jpg);
+    background-size: cover;
+}
+
+.sub2 {
+    background-image: url(english\ education\ mines.jpg);
+    background-size: cover;
+}
+
+.sub3 {
+    background-image: url(maths.jpg);
+    background-size: cover;
+}
+
+.sub4 {
+    background-image: url(science.jpg);
+    background-size: cover;
+}
+
+.sub5 {
+    background-image: url(social\ copy.jpg);
+    background-size: cover;
+}
+
+.c11sub1 {
+    background-image: url(chemistry.jpg);
+    background-size: 18vw 26vh;
+}
+
+.c11sub2 {
+    background-image: url(english\ education\ mines.jpg);
+    background-size: cover;
+}
+
+.c11sub3 {
+    background-image: url(maths.jpg);
+    background-size: cover;
+}
+
+.c11sub4 {
+    background-image: url(biology.jpg);
+    background-size: cover;
+}
+
+.c11sub5 {
+    background-image: url(physics.jpg);
+    background-size: cover;
+}
+.c12sub1 {
+    background-image: url(chemistry.jpg);
+    background-size: 18vw 26vh;
+}
+
+.c12sub2 {
+    background-image: url(english\ education\ mines.jpg);
+    background-size: cover;
+}
+
+.c12sub3 {
+    background-image: url(maths.jpg);
+    background-size: cover;
+}
+
+.c12sub4 {
+    background-image: url(biology.jpg);
+    background-size: cover;
+}
+
+.c12sub5 {
+    background-image: url(physics.jpg);
+    background-size: cover;
+}
+#btn{
+    color: #fff;
+    background-color: aqua;
+    height: 5vh;
+    width: fit-content;font-size: 13px;
+    border-radius: 10px;
+    margin-top: 195px;
+    margin-left: -69px;
+
+}
